@@ -1,4 +1,4 @@
-Sequências de comandos para configurar o dispositivo USB WiFi Realtek Semicondutor Corp. RTL8188FTV 802.11b no Linux Ubuntu ou distro derivada.
+Sequência de comandos para configurar o dispositivo USB WiFi Realtek Semicondutor Corp. RTL8188FTV 802.11b no Linux Ubuntu ou distro derivada.
 
 Antes de executar qualquer comando, atualize seu repositório via terminal:
 
