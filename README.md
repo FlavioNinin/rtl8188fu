@@ -1,5 +1,8 @@
 Sequência de comandos para configurar o dispositivo USB WiFi Realtek Semicondutor Corp. RTL8188FTV 802.11b no Linux Ubuntu ou distro derivada.
 
+Na raiz deste repositório ja possui um programa shell script com todos comandos em sêquencia(realtek.sh), exigindo apenas que o repositório esteja atualizado e que esteja utilizando o super usuário. Caso queria executar os comandos em sequência siga os passos abaixo:
+
+
 Antes de executar qualquer comando, atualize seu repositório via terminal:
 
 sudo su
@@ -42,8 +45,10 @@ echo -e "[device]\nwifi.scan-rand-mac-address=no" | sudo tee /etc/NetworkManager
 
 echo 'alias usb:v0BDApF179d*dc*dsc*dp*icFFiscFFipFFin* rtl8188fu' | sudo tee /etc/modprobe.d/r8188eu-blacklist.conf
 
+Reinicie seu computador e seu dispositivo WiFi estará configurado.
 
 Caso queria executar via shell script, dentro desta pasta possui o arquivo: realtek.sh
+Após atualizar o repositorio utilize o comando logado como super usuário: bash realtek.sh, após isso e reinicie o computador.
 
 Boa sorte
 
